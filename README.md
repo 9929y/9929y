@@ -1,46 +1,78 @@
 # Hi, I'm Yanice Yang
 
-I'm a product lead and AI builder working across strategy, UX systems, AI workflows, and implementation.
+**AI Product Designer + Product Lead building agentic-native AI workflows.**
 
-My best work sits where a vague product problem becomes a usable system: research turns into structure, structure becomes interaction, and interaction becomes something people can test.
+I design AI products as systems, not chat windows. My work connects **human intent, structured context, agent behavior, evaluation, and permissioned learning** into workflows people can understand, steer, and trust.
 
- [LinkedIn](https://www.linkedin.com/in/yanice-yang)
+**Not every agent should look like a chatbot.**
+
+[Portfolio](https://yaniceyang.com) · [LinkedIn](https://www.linkedin.com/in/yanice-yang)
+
+## How I Think About Agentic Products
+
+```mermaid
+flowchart LR
+    A[Human intent] --> B[UX + controls]
+    B --> C[Context / harness]
+    C --> D[Agent + model]
+    D --> E[Output / action]
+    E --> F[Review + evaluation]
+    F --> G[Approved feedback / memory]
+    G --> C
+```
+
+The interface is only one layer. I care about the behavior underneath it:
+
+- **Context engineering** — turn uneven user input, source material, and prior decisions into task-relevant context.
+- **Orchestration** — define what the system retrieves, routes, generates, and when it should stop or ask for human input.
+- **Human control** — design constraints, review gates, corrections, evidence, and overrides into the workflow.
+- **Memory design** — distinguish signals from durable memory; learning should be explicit and permissioned, not silent personalization.
+- **Evaluation** — use realistic test cases, rubrics, failure modes, and evidence to judge behavior rather than only output polish.
+- **Implementation** — build working prototypes and front-end systems so product behavior can be tested with real content and constraints.
 
 ## What I Build
 
-**AI product workflows**  
-Tools and systems for planning, generating, evaluating, and operating creative/product work with AI in the loop.
+**Agentic product workflows**  
+Systems where AI can research, generate, evaluate, and act across multiple steps while keeping humans in control of important decisions.
 
-**Web coding prototypes**  
-Front-end experiments and working tools built with React, TypeScript, Astro, WebGL/Three.js, motion, and single-file HTML when speed matters.
+**Context + control layers**  
+UX and harness logic that decide what the AI should know, which rules take priority, what can be remembered, and how corrections change future behavior.
 
-**Visual and interaction tooling**  
-Creative-coding editors, shader/material playgrounds, typography generators, export tools, and feedback loops for design-to-AI implementation review.
+**AI-native creative tools**  
+Structured creation environments for image, video, content, and visual exploration that use direct manipulation, presets, references, and review states instead of defaulting to chat.
 
-**Design-to-implementation systems**  
-Portfolio, case-study, and design-system work where visual decisions are connected to code, tokens, layout rules, and verification.
+**Research-to-build systems**  
+Artifacts that connect user research, model constraints, workflow architecture, prototypes, implementation, and evaluation into one product loop.
 
-**Research-to-build artifacts**  
-Competitive analysis, workflow mapping, measurement research, and decision documents that connect product strategy to buildable interfaces.
+Some production and client repositories are private. I use GitHub to show the public side of the same practice: reusable AI skills, interaction systems, creative tooling, implementation craft, and validation.
 
-Some of my strongest work lives in private product, client, or research contexts. I use GitHub as a public signal for how I think and build: systems, prototypes, front-end craft, and sanitized process evidence.
+## Selected Public Work
+
+- **[Yanice Case Study Illustrations](https://github.com/9929y/yanice-case-study-illustrations)** — a reusable Codex skill with structured workflow rules, visual references, and output guidance for product-design storytelling.
+- **[Canvas Studio](https://github.com/9929y/canvas-studio)** — reusable React viewers for product case studies, with responsive behavior, accessibility, and acceptance validation.
+- **[Flluid Studio](https://github.com/9929y/flluid-studio)** — a direct-manipulation WebGL tool for making abstract shader behavior understandable through stateful controls.
+- **[Cream Studio](https://github.com/9929y/cream-studio)** — a generative art workbench with shared mode contracts, deterministic state, motion, audio response, and export workflows.
 
 ## How I Work
 
-1. Frame the product problem and user/workflow context.
-2. Map the system: actors, states, surfaces, data, constraints.
-3. Design the experience structure and evidence hierarchy.
-4. Build working prototypes or production-facing front-end systems.
-5. Verify with real content, responsive checks, readability passes, and implementation constraints.
+1. **Frame** the user goal, product boundary, and success criteria.
+2. **Map** actors, states, tools, data, constraints, and failure modes.
+3. **Define behavior** across context, routing, priority, memory, and escalation.
+4. **Design control** so users can understand, review, correct, and override AI behavior.
+5. **Build** a working prototype or production-facing interface.
+6. **Evaluate** with realistic tasks, edge cases, evidence, and implementation constraints.
+7. **Adapt** only from feedback the system is actually allowed to learn from.
 
 ## Current Focus
 
-- AI agents and workflow automation for product/creative operations
-- Web coding projects that turn product ideas into usable prototypes
-- AI-first case-study and portfolio systems
-- Design systems that stay connected to implementation
-- Turning product research into buildable interfaces
+- Agentic UX beyond chat
+- Context engineering and harness behavior
+- Human-in-the-loop AI workflows
+- Memory and permission models
+- Agent evaluation and failure handling
+- AI-native creative and operational tools
+- Design-to-implementation systems
 
 ## Stack
 
-`Product strategy` `UX systems` `AI workflows` `React` `TypeScript` `Astro` `Tailwind` `Supabase` `LangGraph` `Gemini` `Three.js` `Motion`
+`Product strategy` `Agentic UX` `Workflow architecture` `Context engineering` `Evaluation` `React` `TypeScript` `Astro` `Tailwind` `Supabase` `LangGraph` `Gemini` `Codex` `Three.js`
