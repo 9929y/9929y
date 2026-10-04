@@ -4,7 +4,7 @@ I'm a product lead and AI builder working across strategy, UX systems, AI workfl
 
 My best work sits where a vague product problem becomes a usable system: research turns into structure, structure becomes interaction, and interaction becomes something people can test.
 
-[Portfolio](https://yaniceyang.com) | [LinkedIn](https://www.linkedin.com/in/yanice-yang)
+ [LinkedIn](https://www.linkedin.com/in/yanice-yang)
 
 ## What I Build
 
