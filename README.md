@@ -6,7 +6,7 @@ I design AI products as systems, not chat windows. My work connects **human inte
 
 **Not every agent should look like a chatbot.**
 
-[Portfolio](https://yaniceyang.com) · [LinkedIn](https://www.linkedin.com/in/yanice-yang)
+ [LinkedIn](https://www.linkedin.com/in/yanice-yang)
 
 ## How I Think About Agentic Products
 
@@ -48,7 +48,7 @@ Some production and client repositories are private. I use GitHub to show the pu
 
 ## Selected Public Work
 
-- **[Yanice Case Study Illustrations](https://github.com/9929y/yanice-case-study-illustrations)** — a reusable Codex skill with structured workflow rules, visual references, and output guidance for product-design storytelling.
+- **[Case Study Illustrations](https://github.com/9929y/yanice-case-study-illustrations)** — a reusable Codex skill with structured workflow rules, visual references, and output guidance for product-design storytelling.
 - **[Canvas Studio](https://github.com/9929y/canvas-studio)** — reusable React viewers for product case studies, with responsive behavior, accessibility, and acceptance validation.
 - **[Flluid Studio](https://github.com/9929y/flluid-studio)** — a direct-manipulation WebGL tool for making abstract shader behavior understandable through stateful controls.
 - **[Cream Studio](https://github.com/9929y/cream-studio)** — a generative art workbench with shared mode contracts, deterministic state, motion, audio response, and export workflows.
@@ -57,21 +57,21 @@ Some production and client repositories are private. I use GitHub to show the pu
 
 1. **Frame** the user goal, product boundary, and success criteria.
 2. **Map** actors, states, tools, data, constraints, and failure modes.
-3. **Define behavior** across context, routing, priority, memory, and escalation.
+3. **Define Agent behavior** across context, routing, priority, memory, and escalation.
 4. **Design control** so users can understand, review, correct, and override AI behavior.
 5. **Build** a working prototype or production-facing interface.
 6. **Evaluate** with realistic tasks, edge cases, evidence, and implementation constraints.
-7. **Adapt** only from feedback the system is actually allowed to learn from.
+7. **Adapt&Multi-Agents System** only from feedback the system is actually allowed to learn from.
 
 ## Current Focus
 
-- Agentic UX beyond chat
+- Agentic Design for both users and AI agents
 - Context engineering and harness behavior
 - Human-in-the-loop AI workflows
 - Memory and permission models
 - Agent evaluation and failure handling
 - AI-native creative and operational tools
-- Design-to-implementation systems
+- Design-to-code systems
 
 ## Stack
 
