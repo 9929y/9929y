@@ -1,14 +1,14 @@
 # Hi, I'm Yanice Yang
 
-**AI Product Designer + Product Lead designing agentic-native workflows from model capability to product behavior.**
+**AI Product Designer + Product Lead building agentic-native AI workflows.**
 
-I work across the full AI product loop: understanding what models can and cannot do, defining how agents should behave, designing how people steer and correct them, and evaluating whether the system actually works.
+I design AI products as systems, not chat windows. My work connects **human intent, structured context, agent behavior, evaluation, and permissioned learning** into workflows people can understand, steer, and trust.
 
 **Not every agent should look like a chatbot.**
 
-[LinkedIn](https://www.linkedin.com/in/yanice-yang)
+ [LinkedIn](https://www.linkedin.com/in/yanice-yang)
 
-## My AI Product Workflow
+## How I Think About Agentic Products
 
 ```mermaid
 flowchart LR
@@ -20,31 +20,28 @@ flowchart LR
     F --> B
 ```
 
-I treat AI design as more than interface design. My workflow usually spans:
+The interface is only one layer. I care about the behavior underneath it:
 
-- **Understand model capability** — test what the model handles well, where it becomes unreliable, what context it needs, and which technical constraints affect the experience.
-- **Design agent behavior** — define goals, responsibilities, decision boundaries, routing, tool use, memory, constraints, and escalation.
-- **Design the UX around that behavior** — decide how users express intent, review evidence, steer generation, correct mistakes, approve actions, and override the system.
-- **Prototype the system** — turn product logic into working flows so behavior can be tested with realistic content and edge cases.
-- **Evaluate behavior** — create test cases, rubrics, failure modes, and success criteria for the agent, not just the interface.
-- **Adapt intentionally** — decide which feedback should change future behavior, and how single-agent or multi-agent systems should evolve.
+- **Context engineering** — turn uneven user input, source material, and prior decisions into task-relevant context.
+- **Orchestration** — define what the system retrieves, routes, generates, and when it should stop or ask for human input.
+- **Human control** — design constraints, review gates, corrections, evidence, and overrides into the workflow.
+- **Memory design** — distinguish signals from durable memory; learning should be explicit and permissioned, not silent personalization.
+- **Evaluation** — use realistic test cases, rubrics, failure modes, and evidence to judge behavior rather than only output polish.
+- **Implementation** — build working prototypes and front-end systems so product behavior can be tested with real content and constraints.
 
 ## What I Build
 
 **Agentic product workflows**  
 Systems where AI can research, generate, evaluate, and act across multiple steps while keeping humans in control of important decisions.
 
-**Agent behavior + orchestration**  
-I define how agents interpret context, choose actions, use tools, route work, remember information, coordinate with other agents, and escalate when needed.
-
 **Context + control layers**  
 UX and harness logic that decide what the AI should know, which rules take priority, what can be remembered, and how corrections change future behavior.
 
-**AI-native product experiences**  
-Interfaces built around model capability rather than legacy UI patterns — sometimes conversational, often not.
+**AI-native creative tools**  
+Structured creation environments for image, video, content, and visual exploration that use direct manipulation, presets, references, and review states instead of defaulting to chat.
 
-**Evaluation-driven prototypes**  
-Working product flows that make model behavior testable before interaction patterns become fixed.
+**Research-to-build systems**  
+Artifacts that connect user research, model constraints, workflow architecture, prototypes, implementation, and evaluation into one product loop.
 
 Some production and client repositories are private. I use GitHub to show the public side of the same practice: reusable AI skills, interaction systems, creative tooling, implementation craft, and validation.
 
@@ -57,25 +54,23 @@ Some production and client repositories are private. I use GitHub to show the pu
 
 ## How I Work
 
-1. **Research model capability** — understand modality, strengths, constraints, context needs, and failure patterns.
-2. **Define agent behavior** — goals, states, tools, routing, memory, boundaries, and escalation.
-3. **Design the experience** — intent, controls, feedback, evidence, review, and correction.
-4. **Prototype + build** — make the workflow concrete enough to test with real content.
-5. **Evaluate** — test realistic tasks, edge cases, and behavioral quality.
-6. **Adapt + orchestrate** — refine behavior, memory, and single- or multi-agent coordination based on evidence.
+1. **Understand model capability** — identify strengths, limitations, context needs, and failure patterns.
+2. **Define Agent behavior** — goals, states, tools, routing, priority, memory, and escalation.
+3. **Design control** — decide how users understand, review, correct, and override AI behavior.
+4. **Build** a working prototype or production-facing interface.
+5. **Evaluate** with realistic tasks, edge cases, evidence, and implementation constraints.
+6. **Adapt&Multi-Agents System** only from feedback the system is actually allowed to learn from.
 
 ## Current Focus
 
-- Agentic design for both users and AI agents
-- Model capability → product experience
-- Agent behavior design
+- Agentic Design for both users and AI agents
 - Context engineering and harness behavior
 - Human-in-the-loop AI workflows
 - Memory and permission models
 - Agent evaluation and failure handling
-- Multi-agent orchestration
+- AI-native creative and operational tools
 - Design-to-code systems
 
 ## Stack
 
-`Product strategy` `AI Product Design` `Agent behavior design` `Agentic UX` `Workflow architecture` `Context engineering` `Evaluation` `React` `TypeScript` `Astro` `Tailwind` `Supabase` `LangGraph` `Gemini` `Codex` `Three.js`
+`Product strategy` `Agentic UX` `Workflow architecture` `Context engineering` `Evaluation` `React` `TypeScript` `Astro` `Tailwind` `Supabase` `LangGraph` `Gemini` `Codex` `Three.js`
