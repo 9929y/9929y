@@ -2,32 +2,12 @@
 
 **AI Product Designer + Product Lead building agentic-native AI workflows.**
 
-I design AI products as systems, not chat windows. My work connects **human intent, structured context, agent behavior, evaluation, and permissioned learning** into workflows people can understand, steer, and trust.
+I design AI products as systems,  My work connects **human intent, structured context, agent behavior, evaluation, and permissioned learning** into workflows people can understand, steer, and trust.
 
-**Not every agent should look like a chatbot.**
 
  [LinkedIn](https://www.linkedin.com/in/yanice-yang)
 
-## How I Think About Agentic Products
 
-```mermaid
-flowchart LR
-    A[Model capability] --> B[Agent behavior]
-    B --> C[UX + controls]
-    C --> D[Prototype + implementation]
-    D --> E[Evaluation]
-    E --> F[Feedback + adaptation]
-    F --> B
-```
-
-The interface is only one layer. I care about the behavior underneath it:
-
-- **Context engineering** — turn uneven user input, source material, and prior decisions into task-relevant context.
-- **Orchestration** — define what the system retrieves, routes, generates, and when it should stop or ask for human input.
-- **Human control** — design constraints, review gates, corrections, evidence, and overrides into the workflow.
-- **Memory design** — distinguish signals from durable memory; learning should be explicit and permissioned, not silent personalization.
-- **Evaluation** — use realistic test cases, rubrics, failure modes, and evidence to judge behavior rather than only output polish.
-- **Implementation** — build working prototypes and front-end systems so product behavior can be tested with real content and constraints.
 
 ## What I Build
 
@@ -43,15 +23,7 @@ Structured creation environments for image, video, content, and visual explorati
 **Research-to-build systems**  
 Artifacts that connect user research, model constraints, workflow architecture, prototypes, implementation, and evaluation into one product loop.
 
-Some production and client repositories are private. I use GitHub to show the public side of the same practice: reusable AI skills, interaction systems, creative tooling, implementation craft, and validation.
-
-## Selected Public Work
-
-- **[Case Study Illustrations](https://github.com/9929y/yanice-case-study-illustrations)** — a reusable Codex skill with structured workflow rules, visual references, and output guidance for product-design storytelling.
-- **[Canvas Studio](https://github.com/9929y/canvas-studio)** — reusable React viewers for product case studies, with responsive behavior, accessibility, and acceptance validation.
-- **[Flluid Studio](https://github.com/9929y/flluid-studio)** — a direct-manipulation WebGL tool for making abstract shader behavior understandable through stateful controls.
-- **[Cream Studio](https://github.com/9929y/cream-studio)** — a generative art workbench with shared mode contracts, deterministic state, motion, audio response, and export workflows.
-
+Some production and client repositories are private. I use GitHub to show the public side of the same practice: reusable AI skills, interaction systems, creative tooling, implementation craft, and validation.vc
 ## How I Work
 
 1. **Understand model capability** — identify strengths, limitations, context needs, and failure patterns.
